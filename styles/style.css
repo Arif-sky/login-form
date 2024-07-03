@@ -1,0 +1,26 @@
+body {
+  background-image: url(/images/background.gif);
+}
+
+#container {
+  text-align: center;
+  margin-top: 260px;
+  background-color: black;
+  width: 350px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.logintitle {
+  color: rgb(250, 250, 250);
+  font-family: Georgia, "Times New Roman", Times, serif\;;
+  font-size: 36px;
+}
+h3 {
+  color: yellow;
+}
+input {
+  border: 3px solid green;
+  padding: 3px;
+  border-radius: 5px;
+}
