@@ -18,9 +18,33 @@ body {
 }
 h3 {
   color: yellow;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 input {
-  border: 3px solid green;
+  border: 3px solid rgb(0, 203, 71);
   padding: 3px;
   border-radius: 5px;
+  width: 200px;
+}
+.email {
+  margin-top: 40px;
+}
+.password {
+  margin-top: 20px;
+}
+::placeholder {
+  color: rgb(7, 0, 214);
+  opacity: 1;
+}
+button {
+  padding: 8px 38px;
+  margin-top: 15px;
+  border: none;
+  background-color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  background-image: url(/images/265-2656349_button-background-buttons-transparent-electric-blue-hd-png.png);
 }
